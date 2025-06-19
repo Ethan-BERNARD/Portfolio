@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Stage 1ère année</title>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/png/logo_w.png" type="image/png">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/ethan-bernard.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">ETHAN BERNARD</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Accueil </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link"> À Propos  </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projets
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contacter </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Accueil </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> À Propos </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projets </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contacter </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Stage de 1ère année</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            J’ai effectué mon stage de première année de BTS SIO à l’IUT de Quimper, 
+            dans le service informatique. Cette expérience m’a permis de progresser 
+            techniquement et de gagner en assurance.
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="./assets/pdf/tableau_comp_Générale.pdf" class="btn btn--bg" target="_blank">Tableau des Compétences</a>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+
+          <h1 class="project-details__content-title-h1">Active Directory (AD)</h1>
+
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/jpeg/project-mockup-AD.jpeg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Compte Rendu du Projet</h3>
+              <p class="project-details__desc-para-projects">
+                Pendant mon stage, l’une de mes premières missions a été de créer un compte 
+                administrateur local que je pourrais réutiliser par la suite. Pour cela, 
+                je suis passé par Active Directory afin de créer un compte utilisateur à mon nom. 
+                J’ai ensuite associé ce compte à un groupe disposant des privilèges 
+                d’administrateur, ce qui me permet désormais d’effectuer des actions nécessitant 
+                des droits élevés sur les machines du réseau.
+
+              </p>
+              <p class="project-details__desc-para-projects">
+                On m’a expliqué comment utiliser certains outils et pourquoi ils sont essentiels 
+                en entreprise, notamment en matière de sécurité informatique. Cela m’a permis de 
+                comprendre certaines méthodes utilisées par les pirates informatiques pour 
+                s’introduire dans un réseau, ainsi que les mesures de prévention mises en place 
+                pour y faire face. Par exemple, j’ai appris qu’il est préférable de créer 
+                plusieurs comptes administrateurs, chacun rattaché à un domaine différent, 
+                afin d’éviter qu’un seul compte ne possède l’ensemble des droits d’administration, 
+                ce qui limiterait les risques en cas de compromission.
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Éléments de preuve (cliquables)</h3>
+              <div class="skills">
+                <div class="skills__skill" onclick="window.open('./assets/png/elt_preuves/AD_GG.png', '_blank');">Groupes Globaux</div>
+                <div class="skills__skill" onclick="window.open('./assets/png/elt_preuves/AD_G_associe.png', '_blank');">Groupes associés à mon compte utilisateur</div>
+                <div class="skills__skill" onclick="window.open('./assets/png/elt_preuves/AD_util.png', '_blank');">Utilisateurs</div>
+                <div class="skills__skill" onclick="window.open('./assets/png/elt_preuves/AD_mb_ap.png', '_blank');">Membres du groupe auquel j'appartiens</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">Compétences</h3>
+              <a
+                href="./assets/pdf/tableau_comp_AD.pdf"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Catalogue des compétences</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr/>
+
+
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+
+          <h1 class="project-details__content-title-h1">FOG</h1>
+
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/jpeg/project-mockup-FOG.jpeg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Compte Rendu du Projet</h3>
+              <p class="project-details__desc-para-projects">
+                J’ai également utilisé l’outil FOG, un logiciel open source permettant le 
+                déploiement d’images systèmes. Grâce à cet outil, j’ai pu apprendre à déployer 
+                un même système d’exploitation sur plusieurs ordinateurs simultanément, ce qui 
+                est particulièrement utile dans un environnement professionnel. On m’a aussi fait 
+                créer une nouvelle image à partir d’un ordinateur portable, ce qui m’a permis 
+                de mieux comprendre le processus complet de création et de déploiement d’une 
+                image système.
+              </p>
+              <p class="project-details__desc-para-projects">
+                J’ai aussi fait l’installation de la nouvelle mise à jour de FOG avec l'aide de 
+                mon maître de stage, via un outil appelé MobaXterm un terminal d’administration 
+                pour différents protocoles. 
+
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Éléments de preuve (cliquables)</h3>
+              <div class="skills">
+                <div class="skills__skill" onclick="window.open('./assets/png/elt_preuves/FOG_choice.png', '_blank');">Choix de l'image</div>
+                <div class="skills__skill" onclick="window.open('./assets/png/elt_preuves/FOG_type.png', '_blank');">Déploiement</div>
+                <div class="skills__skill" onclick="window.open('./assets/png/elt_preuves/FOG_console.png', '_blank');">Console FOG pour l'installation</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">Compétences</h3>
+              <a
+                href="./assets/pdf/tableau_comp_FOG.pdf"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Catalogue des compétences</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <hr/>
+
+
+
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+
+          <h1 class="project-details__content-title-h1">Rustdesk via Docker</h1>
+
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/jpeg/project-mockup-Rustdesk.jpeg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Compte Rendu du Projet</h3>
+              <p class="project-details__desc-para-projects">
+                J’ai eu l’occasion de procéder moi-même à l’installation de Docker 
+                via des commandes Linux, ainsi qu’à celle de RustDesk, un outil de 
+                contrôle à distance open source et gratuit. Ce dernier me permet de 
+                prendre le contrôle d’une machine à distance, à condition que 
+                celle-ci autorise la connexion à l’aide d’un identifiant et d’un 
+                mot de passe uniques.
+              </p>
+              <p class="project-details__desc-para-projects">
+               Mon objectif était d’établir un lien entre deux machines : une machine 
+               cliente et une machine serveur. Cela ma permis, par exemple, 
+               de prendre la main à distance sur la machine serveur depuis la machine 
+               cliente.
+              </p>
+              <p class="project-details__desc-para-projects">
+               Cependant, j'ai rencontré des difficultés pour établir 
+               cette connexion entre les deux machines. D’après mes observations, 
+               le problème pouvait venir de Docker, bien qu’il soit possible que 
+               la cause se situe ailleurs.
+              </p>
+              <p class="project-details__desc-para-projects">
+               Finalement, après quelques recherches j'ai réussi à réparer mon problème qui était 
+               probablement dû à des résidu laisser par un ancien container.
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Éléments de preuve (cliquables)</h3>
+              <div class="skills">
+                <div class="skills__skill" onclick="window.open('./assets/png/elt_preuves/Rustdesk_param.png', '_blank');">Configuration de rustdesk</div>
+                <div class="skills__skill" onclick="window.open('./assets/png/elt_preuves/Rustdesk_accueil.png', '_blank');">Menu des connexions disponibles</div>
+                <div class="skills__skill" onclick="window.open('./assets/png/elt_preuves/Rustdesk_PC.png', '_blank');">Connexion à un bureau à distance</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">Compétences</h3>
+              <a
+                href="./assets/pdf/tableau_comp_Rustdesk.pdf"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Catalogue des compétences</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <hr/>
+
+
+        <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+
+          <h1 class="project-details__content-title-h1">VMware ESXi et Proxmox VE</h1>
+
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/jpeg/project-mockup-VM.jpeg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Compte Rendu du Projet</h3>
+              <p class="project-details__desc-para-projects">
+                J’ai procédé à l’installation de Proxmox VE ainsi que de VMware ESXi, 
+                deux solutions de virtualisation robustes et relativement similaires, 
+                à l’aide d’une clé USB bootable. Proxmox permet la gestion centralisée
+                 de machines virtuelles et de conteneurs via une interface web 
+                 intuitive, facilitant ainsi la supervision de l’ensemble de 
+                 l’infrastructure virtuelle. Il intègre également des fonctionnalités 
+                 comme la haute disponibilité, les sauvegardes automatisées et la 
+                 gestion de clusters.
+              </p>
+              <p class="project-details__desc-para-projects">
+                De son côté, VMware ESXi est un hyperviseur de type 1, reconnu pour 
+                sa stabilité et ses performances dans les environnements 
+                professionnels. Il permet de virtualiser efficacement des 
+                serveurs physiques tout en offrant des fonctionnalités avancées 
+                comme vMotion, la tolérance aux pannes, ou encore la gestion fine des 
+                ressources (CPU, mémoire, stockage). Son interface d’administration, 
+                vSphere, permet un contrôle précis des ressources et une gestion 
+                optimisée des machines virtuelles.
+              </p>
+              <p class="project-details__desc-para-projects">
+                L’installation via une clé USB bootable s’est révélée simple et 
+                rapide, évitant les étapes de configuration fastidieuses et 
+                permettant un déploiement immédiat des deux systèmes.
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Éléments de preuve (cliquables)</h3>
+              <div class="skills">
+                <div class="skills__skill" onclick="window.open('./assets/png/elt_preuves/Proxmox_acc.png', '_blank');">Menu Proxmox</div>
+                <div class="skills__skill" onclick="window.open('./assets/png/elt_preuves/Proxmox_conf.png', '_blank');">Console Proxmox</div>
+                <div class="skills__skill" onclick="window.open('./assets/png/elt_preuves/ESXi_acc.png', '_blank');">Menu VMware ESXi</div>
+                <div class="skills__skill" onclick="window.open('./assets/png/elt_preuves/ESXi_conf.png', '_blank');">Console VMware ESXi</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">Compétences</h3>
+              <a
+                href="./assets/pdf/tableau_comp_Proxmox_ESXi.pdf"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Catalogue des compétences</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Ethan BERNARD</h4>
+            <p class="main-footer__short-desc">
+              Portfolio conçu au cours de mes 2 années de BTS, avec des projets menés en 
+              autonomie durant mes stages de première et seconde année.
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Fait par
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a> et modifié par 
+          <a rel="noreferrer" target="_blank" href="https://linkedin.com/in/ethan-bernard-b33684305">Ethan BERNARD</a>.
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
